@@ -19,4 +19,4 @@ root.render(
 );
 
 reportWebVitals();
-serviceWorkerRegistration.register();
+//serviceWorkerRegistration.register();
