@@ -20,7 +20,8 @@ export default function Componentes() {
 
     return (
         <div className="container">
-        <h1 className="mt-2">My spaces</h1>
+        <h2 style={{ textAlign: "left", fontSize: "24px" }}>My Spaces</h2>
+
         <hr></hr>
         <Row className="justify-content-center">
           {edificios.map((edificio) => (

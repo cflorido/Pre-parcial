@@ -13,8 +13,8 @@ export default function Edificio({ edificio }) {
       };
     const getImageForType = (type) => {
         const images = {
-          house: "https://cdn-icons-png.flaticon.com/512/3947/3947466.png",
-          loft: "https://cdn-icons-png.flaticon.com/512/2521/2521520.png",
+          house: "https://png.pngtree.com/png-vector/20240521/ourmid/pngtree-house-icon-design-black-and-white-home-symbol-vector-illustration-png-image_12471860.png",
+          loft: "https://i.pinimg.com/736x/ad/56/10/ad5610035461834354233052eb707dea.jpg",
         };
         return images[type] || "https://via.placeholder.com/100"; // Imagen por defecto
       };
