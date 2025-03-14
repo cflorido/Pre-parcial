@@ -1,5 +1,3 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import logo from './logo.svg';
 import './App.css';
 import Componentes from "./componentes";
@@ -8,7 +6,7 @@ import Detalle from "./detalle";
 function App() {
   return (
     <div className="App">
-
+      <NavBar></NavBar>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Componentes />} />

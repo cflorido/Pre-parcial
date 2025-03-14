@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Container className="mt-3">
     <Row>
-      <App />
+      <Componentes/>
     </Row>
   </Container>
 );

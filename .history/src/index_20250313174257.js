@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Componentes from "./componentes"
+import componentes from "./componentes"
 import reportWebVitals from './reportWebVitals';
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Container className="mt-3">
     <Row>
-      <App />
+      <componentes/>
     </Row>
   </Container>
 );

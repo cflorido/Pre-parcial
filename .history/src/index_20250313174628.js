@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Componentes from "./componentes"
+import ccomponentes from "./Componentes"
 import reportWebVitals from './reportWebVitals';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Container className="mt-3">
     <Row>
-      <App />
+      <componentes/>
     </Row>
   </Container>
 );
